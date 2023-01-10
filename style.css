@@ -1,0 +1,50 @@
+. {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.contact-us {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    color: white;
+    padding: 40px;
+    font-size: 20px;
+}
+
+form {
+    padding: 40px;
+}
+
+.name label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 0.25rem;
+}
+.name input {
+    width: 320px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+  margin: 30px 0px;
+}
+
+.button {
+ padding: 8px 25px;
+ font-size: 20px;
+ background: none;
+ border: 1px solid #8a58b9;
+ border-radius: 6px;
+}
+.invalid {
+  border: 1px solid red;
+}
